@@ -1,5 +1,5 @@
 
-project(Ex1)
+project(Exercise1)
 
 cmake_minimum_required(VERSION 3.1.4)
 
