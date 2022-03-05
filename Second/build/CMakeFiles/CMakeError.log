@@ -235,3 +235,161 @@ make: *** [cmTC_c15d0/fast] Error 2
 
 
 
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/Chris/Desktop/Study2022/Earino 2022/C++/Second/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5c1e0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5c1e0.dir/build.make CMakeFiles/cmTC_5c1e0.dir/build
+Building C object CMakeFiles/cmTC_5c1e0.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/x86_64-w64-mingw32-gcc-11.2.0   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -v -Wl,-v -o CMakeFiles/cmTC_5c1e0.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/x86_64-w64-mingw32-gcc-11.2.0
+Target: x86_64-w64-mingw32
+Configured with: ../configure --target=x86_64-w64-mingw32 --with-sysroot=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64 --prefix=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64 --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-languages=c,c++,fortran --with-ld=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-ld --with-as=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-as --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-zstd=no --disable-multilib --disable-nls --enable-threads=posix
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_5c1e0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5c1e0.dir/'
+ /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1 -quiet -v -D_REENTRANT -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5c1e0.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /var/folders/zc/lq6xhv5j67730jglj7f0m3fm0000gn/T//ccRiAw0w.s
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b7b5f11645750dce82729982c7aaa063
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_5c1e0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5c1e0.dir/'
+ /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-as -v -o CMakeFiles/cmTC_5c1e0.dir/CMakeCCompilerABI.c.o /var/folders/zc/lq6xhv5j67730jglj7f0m3fm0000gn/T//ccRiAw0w.s
+GNU assembler version 2.38 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.38
+COMPILER_PATH=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib/../lib/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib/
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_5c1e0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5c1e0.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_5c1e0
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c1e0.dir/link.txt --verbose=1
+/usr/local/bin/x86_64-w64-mingw32-gcc-11.2.0  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5c1e0.dir/CMakeCCompilerABI.c.o -o cmTC_5c1e0 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/x86_64-w64-mingw32-gcc-11.2.0
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper
+Target: x86_64-w64-mingw32
+Configured with: ../configure --target=x86_64-w64-mingw32 --with-sysroot=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64 --prefix=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64 --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-languages=c,c++,fortran --with-ld=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-ld --with-as=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-as --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-zstd=no --disable-multilib --disable-nls --enable-threads=posix
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib/../lib/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib/
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk' '-v' '-o' 'cmTC_5c1e0.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5c1e0.'
+ /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2 -plugin /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.so -plugin-opt=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/zc/lq6xhv5j67730jglj7f0m3fm0000gn/T//ccX3UNdi.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64 -m i386pep -Bdynamic -o cmTC_5c1e0.exe /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0 -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib/../lib -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5c1e0.dir/CMakeCCompilerABI.c.o -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+collect2 version 11.2.0
+/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-ld -plugin /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.so -plugin-opt=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/zc/lq6xhv5j67730jglj7f0m3fm0000gn/T//ccX3UNdi.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64 -m i386pep -Bdynamic -o cmTC_5c1e0.exe /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0 -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib/../lib -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5c1e0.dir/CMakeCCompilerABI.c.o -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-ld: Error: unable to disambiguate: -search_paths_first (did you mean --search_paths_first ?)
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_5c1e0] Error 1
+make: *** [cmTC_5c1e0/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/Chris/Desktop/Study2022/Earino 2022/C++/Second/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bdeaa/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bdeaa.dir/build.make CMakeFiles/cmTC_bdeaa.dir/build
+Building C object CMakeFiles/cmTC_bdeaa.dir/testCCompiler.c.o
+/usr/local/bin/x86_64-w64-mingw32-gcc-11.2.0   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/cmTC_bdeaa.dir/testCCompiler.c.o -c "/Users/Chris/Desktop/Study2022/Earino 2022/C++/Second/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_bdeaa
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdeaa.dir/link.txt --verbose=1
+/usr/local/bin/x86_64-w64-mingw32-gcc-11.2.0  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bdeaa.dir/testCCompiler.c.o -o cmTC_bdeaa 
+/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-ld: Error: unable to disambiguate: -search_paths_first (did you mean --search_paths_first ?)
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_bdeaa] Error 1
+make: *** [cmTC_bdeaa/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/Chris/Desktop/Study2022/Earino 2022/C++/Second/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_40075/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_40075.dir/build.make CMakeFiles/cmTC_40075.dir/build
+Building C object CMakeFiles/cmTC_40075.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/x86_64-w64-mingw32-gcc-11.2.0   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -v -Wl,-v -o CMakeFiles/cmTC_40075.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/x86_64-w64-mingw32-gcc-11.2.0
+Target: x86_64-w64-mingw32
+Configured with: ../configure --target=x86_64-w64-mingw32 --with-sysroot=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64 --prefix=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64 --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-languages=c,c++,fortran --with-ld=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-ld --with-as=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-as --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-zstd=no --disable-multilib --disable-nls --enable-threads=posix
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_40075.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40075.dir/'
+ /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1 -quiet -v -D_REENTRANT -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_40075.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /var/folders/zc/lq6xhv5j67730jglj7f0m3fm0000gn/T//ccb99PoZ.s
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b7b5f11645750dce82729982c7aaa063
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_40075.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40075.dir/'
+ /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-as -v -o CMakeFiles/cmTC_40075.dir/CMakeCCompilerABI.c.o /var/folders/zc/lq6xhv5j67730jglj7f0m3fm0000gn/T//ccb99PoZ.s
+GNU assembler version 2.38 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.38
+COMPILER_PATH=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib/../lib/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib/
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_40075.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40075.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_40075
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40075.dir/link.txt --verbose=1
+/usr/local/bin/x86_64-w64-mingw32-gcc-11.2.0  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_40075.dir/CMakeCCompilerABI.c.o -o cmTC_40075 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/x86_64-w64-mingw32-gcc-11.2.0
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper
+Target: x86_64-w64-mingw32
+Configured with: ../configure --target=x86_64-w64-mingw32 --with-sysroot=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64 --prefix=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64 --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-languages=c,c++,fortran --with-ld=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-ld --with-as=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-as --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-zstd=no --disable-multilib --disable-nls --enable-threads=posix
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib/../lib/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/:/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib/
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk' '-v' '-o' 'cmTC_40075.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40075.'
+ /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2 -plugin /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.so -plugin-opt=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/zc/lq6xhv5j67730jglj7f0m3fm0000gn/T//ccbYZdqk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64 -m i386pep -Bdynamic -o cmTC_40075.exe /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0 -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib/../lib -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_40075.dir/CMakeCCompilerABI.c.o -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+collect2 version 11.2.0
+/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-ld -plugin /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.so -plugin-opt=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/zc/lq6xhv5j67730jglj7f0m3fm0000gn/T//ccbYZdqk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64 -m i386pep -Bdynamic -o cmTC_40075.exe /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0 -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib/../lib -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -L/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/mingw/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_40075.dir/CMakeCCompilerABI.c.o -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 /usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-ld: Error: unable to disambiguate: -search_paths_first (did you mean --search_paths_first ?)
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_40075] Error 1
+make: *** [cmTC_40075/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/Chris/Desktop/Study2022/Earino 2022/C++/Second/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8d60c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8d60c.dir/build.make CMakeFiles/cmTC_8d60c.dir/build
+Building C object CMakeFiles/cmTC_8d60c.dir/testCCompiler.c.o
+/usr/local/bin/x86_64-w64-mingw32-gcc-11.2.0   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/cmTC_8d60c.dir/testCCompiler.c.o -c "/Users/Chris/Desktop/Study2022/Earino 2022/C++/Second/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_8d60c
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d60c.dir/link.txt --verbose=1
+/usr/local/bin/x86_64-w64-mingw32-gcc-11.2.0  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8d60c.dir/testCCompiler.c.o -o cmTC_8d60c 
+/usr/local/Cellar/mingw-w64/9.0.0_3/toolchain-x86_64/bin/x86_64-w64-mingw32-ld: Error: unable to disambiguate: -search_paths_first (did you mean --search_paths_first ?)
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_8d60c] Error 1
+make: *** [cmTC_8d60c/fast] Error 2
+
+
+

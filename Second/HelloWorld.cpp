@@ -1,6 +1,11 @@
 #include "std_lib_facilities.h"
 
 int main() {
-    cout << "Hello World!\n";
+    string a = "12.2";
+    string b = "4";
+    string k = "9";
+
+    cout << << endl;
+
     return 0;
 }
