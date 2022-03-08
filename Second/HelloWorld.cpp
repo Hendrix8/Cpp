@@ -1,11 +1,8 @@
 #include "std_lib_facilities.h"
 
 int main() {
-    string a = "12.2";
-    string b = "4";
-    string k = "9";
-
-    cout << << endl;
+    
+    cout << 3%9 << endl;
 
     return 0;
 }
