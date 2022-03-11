@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise1",
+  "command": "/usr/local/bin/x86_64-apple-darwin20-g++-11   -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/Ex1.dir/Ex1.cpp.o -c /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise1/Ex1.cpp",
+  "file": "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise1/Ex1.cpp"
+},
+{
+  "directory": "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise2",
+  "command": "/usr/local/bin/x86_64-apple-darwin20-g++-11   -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/Ex2.dir/Ex2.cpp.o -c /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise2/Ex2.cpp",
+  "file": "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise2/Ex2.cpp"
+}
+]

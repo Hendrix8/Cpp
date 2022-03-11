@@ -1,8 +1,9 @@
-
 set(CMAKE_TRY_COMPILE_TARGET_TYPE "STATIC_LIBRARY")
-project(Exercises)
+
+project(firstProgram)
 
 cmake_minimum_required(VERSION 3.1.4)
 
-add_subdirectory(Exercise1)
-add_subdirectory(Exercise2)
+set(CXX_STANDARD 17)
+
+add_executable(firstProgram firstProgram.cpp)

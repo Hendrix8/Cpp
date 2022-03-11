@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.4"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Exercise1",
+					"jsonFile" : "directory-Exercise1-Debug-31f3df33754c45b315c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Exercise1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Exercise2",
+					"jsonFile" : "directory-Exercise2-Debug-be695c21d604bf341377.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Exercise2",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Exercises"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Exercise1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Exercise2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Ex1::@782dea19f2eda13407eb",
+					"jsonFile" : "target-Ex1-Debug-eef597f684eccae307e4.json",
+					"name" : "Ex1",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Ex2::@9928166d97d3227629ff",
+					"jsonFile" : "target-Ex2-Debug-fe9e00ac96359ec3021b.json",
+					"name" : "Ex2",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build",
+		"source" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

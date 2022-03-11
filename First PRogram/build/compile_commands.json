@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/Chris/Desktop/Study2022/Earino 2022/C++/First PRogram/build",
+  "command": "/usr/local/bin/x86_64-w64-mingw32-c++   -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/firstProgram.dir/firstProgram.cpp.o -c \"/Users/Chris/Desktop/Study2022/Earino 2022/C++/First PRogram/firstProgram.cpp\"",
+  "file": "/Users/Chris/Desktop/Study2022/Earino 2022/C++/First PRogram/firstProgram.cpp"
+}
+]

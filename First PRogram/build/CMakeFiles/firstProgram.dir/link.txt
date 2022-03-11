@@ -1,0 +1,1 @@
+/usr/local/bin/x86_64-w64-mingw32-c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/firstProgram.dir/firstProgram.cpp.o -o firstProgram 

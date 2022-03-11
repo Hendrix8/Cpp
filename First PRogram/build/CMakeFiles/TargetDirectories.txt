@@ -1,0 +1,3 @@
+/Users/Chris/Desktop/Study2022/Earino 2022/C++/First PRogram/build/CMakeFiles/firstProgram.dir
+/Users/Chris/Desktop/Study2022/Earino 2022/C++/First PRogram/build/CMakeFiles/edit_cache.dir
+/Users/Chris/Desktop/Study2022/Earino 2022/C++/First PRogram/build/CMakeFiles/rebuild_cache.dir
