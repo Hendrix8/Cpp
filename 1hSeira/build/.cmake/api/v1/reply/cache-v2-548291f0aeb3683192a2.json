@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/usr/local/bin/x86_64-apple-darwin20-g++-11"
 		},
 		{
@@ -283,10 +283,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/usr/local/bin/x86_64-apple-darwin20-gcc-11"
 		},
 		{
@@ -771,7 +771,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1179,7 +1179,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise1"
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise3"
 		},
 		{
 			"name" : "Exercise1_IS_TOP_LEVEL",
@@ -1203,7 +1203,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise1"
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise3"
 		},
 		{
 			"name" : "Exercise2_BINARY_DIR",

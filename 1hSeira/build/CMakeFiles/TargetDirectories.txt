@@ -6,3 +6,6 @@
 /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise2/CMakeFiles/Ex2.dir
 /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise2/CMakeFiles/edit_cache.dir
 /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise2/CMakeFiles/rebuild_cache.dir
+/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise3/CMakeFiles/Ex3.dir
+/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise3/CMakeFiles/edit_cache.dir
+/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise3/CMakeFiles/rebuild_cache.dir

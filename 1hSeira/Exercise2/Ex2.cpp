@@ -24,13 +24,13 @@ bool comparator(pair<string, int>& a, pair<string, int>& b) {
 
 void mapValueSort( map<string, float>& mapp ){
     
-
     // initializing the vector that will contain the sorted map by value
     vector<pair<string, int>> result;
     int counter = 1;
     // copying key-value pairs from the map to the vector
     for (auto i : mapp) {
         result.push_back(i);
+
     }
   
     // sorting using comparator
@@ -40,7 +40,9 @@ void mapValueSort( map<string, float>& mapp ){
     for (auto i : result) {
         cout << "Rank "<< counter << " --> " << i.first << ' ' << i.second << " time units" << endl;
         counter++;
+
     }
+
 }
 
 class Racer {
@@ -139,7 +141,6 @@ int main() {
             cout << "Give speed for racer_" << i + 1 << ": "; 
             cin >> speed;
             if (speed < 0) { throw 106; }
-            else if (speed == 0) { throw 105; } // catching division by zero (time = remDist / speed)
 
             // asking user to give the distance that the i-th racer has from the start
             cout << "Give racer_" << i + 1 << " distance from the start: ";

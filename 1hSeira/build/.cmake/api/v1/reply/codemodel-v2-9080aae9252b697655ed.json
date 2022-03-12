@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -48,6 +49,21 @@
 					[
 						1
 					]
+				},
+				{
+					"build" : "Exercise3",
+					"jsonFile" : "directory-Exercise3-Debug-b199d38fc502a9e56cba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Exercise3",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "Debug",
@@ -57,7 +73,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"directoryIndexes" : 
 					[
@@ -88,6 +105,18 @@
 					[
 						1
 					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Exercise1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"targets" : 
@@ -95,16 +124,23 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "Ex1::@782dea19f2eda13407eb",
-					"jsonFile" : "target-Ex1-Debug-eef597f684eccae307e4.json",
+					"jsonFile" : "target-Ex1-Debug-a3c83df8d3e99a542d35.json",
 					"name" : "Ex1",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "Ex2::@9928166d97d3227629ff",
-					"jsonFile" : "target-Ex2-Debug-fe9e00ac96359ec3021b.json",
+					"jsonFile" : "target-Ex2-Debug-bbd073b440ed8b89572f.json",
 					"name" : "Ex2",
 					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Ex3::@c7926e599df7257c0f4f",
+					"jsonFile" : "target-Ex3-Debug-bfab96b401fdbe1a102b.json",
+					"name" : "Ex3",
+					"projectIndex" : 3
 				}
 			]
 		}

@@ -8,5 +8,10 @@
   "directory": "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise2",
   "command": "/usr/local/bin/x86_64-apple-darwin20-g++-11   -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/Ex2.dir/Ex2.cpp.o -c /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise2/Ex2.cpp",
   "file": "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise2/Ex2.cpp"
+},
+{
+  "directory": "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise3",
+  "command": "/usr/local/bin/x86_64-apple-darwin20-g++-11   -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/Ex3.dir/Ex3.cpp.o -c /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise3/Ex3.cpp",
+  "file": "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise3/Ex3.cpp"
 }
 ]
