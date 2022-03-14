@@ -75,7 +75,7 @@ int main() {
             if (symbolNum % 2 != 0) { // if the number of symbols is odd
                 cout << "WRONG, mistake at index: " << index << endl;
             }
-            else { 
+            else if (symbolNum % 2 == 0 && symbolNum != 0) { 
                 // if the symbols are even, then insert the sentences, that are contained in the symbols, and the 
                 // index of the first symbol into a vector and check every sentence using the function checkSentence
 
@@ -139,6 +139,17 @@ int main() {
                     mistakeIndex = wrongResults[0].second;
                     cout << "WRONG, mistake at index: " << mistakeIndex << endl;
                 }
+            }
+
+            else { // if sentece has no symbols     
+
+                if (isupper((int)manySent[0])) { // if sentence has a capital at the start then ok 
+                    cout << "CORRECT\n";
+                }
+                else{
+                    cout << "WRONG, mistake at index 0\n";
+                }
+                
             }
                     
         }
