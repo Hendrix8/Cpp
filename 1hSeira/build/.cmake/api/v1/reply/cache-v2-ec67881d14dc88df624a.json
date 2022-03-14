@@ -771,7 +771,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "4"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1179,7 +1179,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise3"
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise1"
 		},
 		{
 			"name" : "Exercise1_IS_TOP_LEVEL",
@@ -1203,7 +1203,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise3"
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise1"
 		},
 		{
 			"name" : "Exercise2_BINARY_DIR",
@@ -1240,6 +1240,114 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise2"
+		},
+		{
+			"name" : "Exercise3_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise3"
+		},
+		{
+			"name" : "Exercise3_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Exercise3_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise3"
+		},
+		{
+			"name" : "Exercise4_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise4"
+		},
+		{
+			"name" : "Exercise4_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Exercise4_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise4"
+		},
+		{
+			"name" : "Exercise_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise4"
+		},
+		{
+			"name" : "Exercise_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Exercise_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/Exercise4"
 		},
 		{
 			"name" : "Exercises_BINARY_DIR",

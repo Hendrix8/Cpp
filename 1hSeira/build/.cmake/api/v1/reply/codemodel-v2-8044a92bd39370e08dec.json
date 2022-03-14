@@ -10,7 +10,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -64,6 +65,21 @@
 					[
 						2
 					]
+				},
+				{
+					"build" : "Exercise4",
+					"jsonFile" : "directory-Exercise4-Debug-c084084cc7587391e4ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "Exercise4",
+					"targetIndexes" : 
+					[
+						3
+					]
 				}
 			],
 			"name" : "Debug",
@@ -74,7 +90,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"directoryIndexes" : 
 					[
@@ -111,11 +128,23 @@
 					[
 						3
 					],
-					"name" : "Exercise1",
+					"name" : "Exercise3",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
 						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "Exercise4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
 					]
 				}
 			],
@@ -141,6 +170,13 @@
 					"jsonFile" : "target-Ex3-Debug-bfab96b401fdbe1a102b.json",
 					"name" : "Ex3",
 					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Ex4::@88cc3bd0abe8499a41c3",
+					"jsonFile" : "target-Ex4-Debug-72e3ad23480e7636a23f.json",
+					"name" : "Ex4",
+					"projectIndex" : 4
 				}
 			]
 		}

@@ -66,18 +66,21 @@ CMAKE_BINARY_DIR = /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build
 all: Exercise1/all
 all: Exercise2/all
 all: Exercise3/all
+all: Exercise4/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: Exercise1/preinstall
 preinstall: Exercise2/preinstall
 preinstall: Exercise3/preinstall
+preinstall: Exercise4/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: Exercise1/clean
 clean: Exercise2/clean
 clean: Exercise3/clean
+clean: Exercise4/clean
 .PHONY : clean
 
 #=============================================================================
@@ -124,6 +127,21 @@ Exercise3/preinstall:
 # Recursive "clean" directory target.
 Exercise3/clean: Exercise3/CMakeFiles/Ex3.dir/clean
 .PHONY : Exercise3/clean
+
+#=============================================================================
+# Directory level rules for directory Exercise4
+
+# Recursive "all" directory target.
+Exercise4/all: Exercise4/CMakeFiles/Ex4.dir/all
+.PHONY : Exercise4/all
+
+# Recursive "preinstall" directory target.
+Exercise4/preinstall:
+.PHONY : Exercise4/preinstall
+
+# Recursive "clean" directory target.
+Exercise4/clean: Exercise4/CMakeFiles/Ex4.dir/clean
+.PHONY : Exercise4/clean
 
 #=============================================================================
 # Target rules for target Exercise1/CMakeFiles/Ex1.dir
@@ -202,6 +220,32 @@ Ex3: Exercise3/CMakeFiles/Ex3.dir/rule
 Exercise3/CMakeFiles/Ex3.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Exercise3/CMakeFiles/Ex3.dir/build.make Exercise3/CMakeFiles/Ex3.dir/clean
 .PHONY : Exercise3/CMakeFiles/Ex3.dir/clean
+
+#=============================================================================
+# Target rules for target Exercise4/CMakeFiles/Ex4.dir
+
+# All Build rule for target.
+Exercise4/CMakeFiles/Ex4.dir/all:
+	$(MAKE) $(MAKESILENT) -f Exercise4/CMakeFiles/Ex4.dir/build.make Exercise4/CMakeFiles/Ex4.dir/depend
+	$(MAKE) $(MAKESILENT) -f Exercise4/CMakeFiles/Ex4.dir/build.make Exercise4/CMakeFiles/Ex4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/CMakeFiles --progress-num=7,8 "Built target Ex4"
+.PHONY : Exercise4/CMakeFiles/Ex4.dir/all
+
+# Build rule for subdir invocation for target.
+Exercise4/CMakeFiles/Ex4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exercise4/CMakeFiles/Ex4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/CMakeFiles 0
+.PHONY : Exercise4/CMakeFiles/Ex4.dir/rule
+
+# Convenience name for target.
+Ex4: Exercise4/CMakeFiles/Ex4.dir/rule
+.PHONY : Ex4
+
+# clean rule for target.
+Exercise4/CMakeFiles/Ex4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Exercise4/CMakeFiles/Ex4.dir/build.make Exercise4/CMakeFiles/Ex4.dir/clean
+.PHONY : Exercise4/CMakeFiles/Ex4.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

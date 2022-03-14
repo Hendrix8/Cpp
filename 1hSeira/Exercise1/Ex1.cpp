@@ -4,7 +4,6 @@ int FastCalculate(int a, int b, int mode) {
 
     int result = 0;
     
-    
         // using switch to consider each operation the user can choose
         switch (mode) 
             {

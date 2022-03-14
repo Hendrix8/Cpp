@@ -1,21 +1,5 @@
 #include "std_lib_facilities.h"
 
-// a function that finds the minimum value of an array 
-float minOfArray(float arr[], int size) {
-
-    //initializing minimum 
-    float min = arr[0];
-    for (int i = 0; i < size; i++) {
-        if (arr[i] < min) {
-            min = arr[i];
-
-        }
-    }
-
-    return min;
-
-}
-
 // Comparator that sorts pairs according to the second item
 bool comparator(pair<string, int>& a, pair<string, int>& b) {
     return a.second < b.second;

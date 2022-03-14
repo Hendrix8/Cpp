@@ -1,0 +1,1 @@
+/usr/local/bin/x86_64-apple-darwin20-g++-11 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Ex4.dir/Ex4.cpp.o -o Ex4 

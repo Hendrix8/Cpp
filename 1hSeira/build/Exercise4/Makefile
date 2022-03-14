@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/CMakeFiles /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/CMakeFiles /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/Exercise4//CMakeFiles/progress.marks
+	cd /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exercise4/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exercise4/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,70 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exercise4/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exercise4/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Ex1
+# Convenience name for target.
+Exercise4/CMakeFiles/Ex4.dir/rule:
+	cd /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exercise4/CMakeFiles/Ex4.dir/rule
+.PHONY : Exercise4/CMakeFiles/Ex4.dir/rule
 
-# Build rule for target.
-Ex1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ex1
-.PHONY : Ex1
-
-# fast build rule for target.
-Ex1/fast:
-	$(MAKE) $(MAKESILENT) -f Exercise1/CMakeFiles/Ex1.dir/build.make Exercise1/CMakeFiles/Ex1.dir/build
-.PHONY : Ex1/fast
-
-#=============================================================================
-# Target rules for targets named Ex2
-
-# Build rule for target.
-Ex2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ex2
-.PHONY : Ex2
-
-# fast build rule for target.
-Ex2/fast:
-	$(MAKE) $(MAKESILENT) -f Exercise2/CMakeFiles/Ex2.dir/build.make Exercise2/CMakeFiles/Ex2.dir/build
-.PHONY : Ex2/fast
-
-#=============================================================================
-# Target rules for targets named Ex3
-
-# Build rule for target.
-Ex3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ex3
-.PHONY : Ex3
-
-# fast build rule for target.
-Ex3/fast:
-	$(MAKE) $(MAKESILENT) -f Exercise3/CMakeFiles/Ex3.dir/build.make Exercise3/CMakeFiles/Ex3.dir/build
-.PHONY : Ex3/fast
-
-#=============================================================================
-# Target rules for targets named Ex4
-
-# Build rule for target.
-Ex4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ex4
+# Convenience name for target.
+Ex4: Exercise4/CMakeFiles/Ex4.dir/rule
 .PHONY : Ex4
 
 # fast build rule for target.
 Ex4/fast:
-	$(MAKE) $(MAKESILENT) -f Exercise4/CMakeFiles/Ex4.dir/build.make Exercise4/CMakeFiles/Ex4.dir/build
+	cd /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build && $(MAKE) $(MAKESILENT) -f Exercise4/CMakeFiles/Ex4.dir/build.make Exercise4/CMakeFiles/Ex4.dir/build
 .PHONY : Ex4/fast
+
+Ex4.o: Ex4.cpp.o
+.PHONY : Ex4.o
+
+# target to build an object file
+Ex4.cpp.o:
+	cd /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build && $(MAKE) $(MAKESILENT) -f Exercise4/CMakeFiles/Ex4.dir/build.make Exercise4/CMakeFiles/Ex4.dir/Ex4.cpp.o
+.PHONY : Ex4.cpp.o
+
+Ex4.i: Ex4.cpp.i
+.PHONY : Ex4.i
+
+# target to preprocess a source file
+Ex4.cpp.i:
+	cd /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build && $(MAKE) $(MAKESILENT) -f Exercise4/CMakeFiles/Ex4.dir/build.make Exercise4/CMakeFiles/Ex4.dir/Ex4.cpp.i
+.PHONY : Ex4.cpp.i
+
+Ex4.s: Ex4.cpp.s
+.PHONY : Ex4.s
+
+# target to generate assembly for a file
+Ex4.cpp.s:
+	cd /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build && $(MAKE) $(MAKESILENT) -f Exercise4/CMakeFiles/Ex4.dir/build.make Exercise4/CMakeFiles/Ex4.dir/Ex4.cpp.s
+.PHONY : Ex4.cpp.s
 
 # Help Target
 help:
@@ -176,10 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Ex1"
-	@echo "... Ex2"
-	@echo "... Ex3"
 	@echo "... Ex4"
+	@echo "... Ex4.o"
+	@echo "... Ex4.i"
+	@echo "... Ex4.s"
 .PHONY : help
 
 
@@ -191,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/Chris/Desktop/Study2022/Earino_2022/C++/1hSeira/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

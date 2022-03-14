@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Exercise1/CMakeLists.txt"
   "../Exercise2/CMakeLists.txt"
   "../Exercise3/CMakeLists.txt"
+  "../Exercise4/CMakeLists.txt"
   "CMakeFiles/3.22.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.3/CMakeSystem.cmake"
@@ -46,6 +47,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Exercise1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Exercise2/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Exercise3/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Exercise4/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -53,4 +55,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "Exercise1/CMakeFiles/Ex1.dir/DependInfo.cmake"
   "Exercise2/CMakeFiles/Ex2.dir/DependInfo.cmake"
   "Exercise3/CMakeFiles/Ex3.dir/DependInfo.cmake"
+  "Exercise4/CMakeFiles/Ex4.dir/DependInfo.cmake"
   )
