@@ -232,6 +232,33 @@ Exercise1_IS_TOP_LEVEL:STATIC=OFF
 Exercise1_SOURCE_DIR:STATIC=/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/Exercise1
 
 //Value Computed by CMake
+Exercise2_BINARY_DIR:STATIC=/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise2
+
+//Value Computed by CMake
+Exercise2_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Exercise2_SOURCE_DIR:STATIC=/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/Exercise2
+
+//Value Computed by CMake
+Exercise3_BINARY_DIR:STATIC=/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise3
+
+//Value Computed by CMake
+Exercise3_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Exercise3_SOURCE_DIR:STATIC=/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/Exercise3
+
+//Value Computed by CMake
+Exercise4_BINARY_DIR:STATIC=/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise4/str_opera
+
+//Value Computed by CMake
+Exercise4_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Exercise4_SOURCE_DIR:STATIC=/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/Exercise4/str_opera
+
+//Value Computed by CMake
 Exercises_BINARY_DIR:STATIC=/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build
 
 //Value Computed by CMake
@@ -345,7 +372,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

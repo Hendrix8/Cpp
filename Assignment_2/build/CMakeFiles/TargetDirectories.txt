@@ -3,3 +3,15 @@
 /Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise1/CMakeFiles/Ex1.dir
 /Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise1/CMakeFiles/edit_cache.dir
 /Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise1/CMakeFiles/rebuild_cache.dir
+/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise2/CMakeFiles/Ex2.dir
+/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise2/CMakeFiles/edit_cache.dir
+/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise2/CMakeFiles/rebuild_cache.dir
+/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise3/CMakeFiles/Ex3.dir
+/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise3/CMakeFiles/edit_cache.dir
+/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise3/CMakeFiles/rebuild_cache.dir
+/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise4/CMakeFiles/Ex4.dir
+/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise4/CMakeFiles/edit_cache.dir
+/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise4/CMakeFiles/rebuild_cache.dir
+/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise4/str_opera/CMakeFiles/my_lib.dir
+/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise4/str_opera/CMakeFiles/edit_cache.dir
+/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise4/str_opera/CMakeFiles/rebuild_cache.dir

@@ -129,6 +129,58 @@ Ex1/fast:
 	$(MAKE) $(MAKESILENT) -f Exercise1/CMakeFiles/Ex1.dir/build.make Exercise1/CMakeFiles/Ex1.dir/build
 .PHONY : Ex1/fast
 
+#=============================================================================
+# Target rules for targets named Ex2
+
+# Build rule for target.
+Ex2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ex2
+.PHONY : Ex2
+
+# fast build rule for target.
+Ex2/fast:
+	$(MAKE) $(MAKESILENT) -f Exercise2/CMakeFiles/Ex2.dir/build.make Exercise2/CMakeFiles/Ex2.dir/build
+.PHONY : Ex2/fast
+
+#=============================================================================
+# Target rules for targets named Ex3
+
+# Build rule for target.
+Ex3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ex3
+.PHONY : Ex3
+
+# fast build rule for target.
+Ex3/fast:
+	$(MAKE) $(MAKESILENT) -f Exercise3/CMakeFiles/Ex3.dir/build.make Exercise3/CMakeFiles/Ex3.dir/build
+.PHONY : Ex3/fast
+
+#=============================================================================
+# Target rules for targets named Ex4
+
+# Build rule for target.
+Ex4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ex4
+.PHONY : Ex4
+
+# fast build rule for target.
+Ex4/fast:
+	$(MAKE) $(MAKESILENT) -f Exercise4/CMakeFiles/Ex4.dir/build.make Exercise4/CMakeFiles/Ex4.dir/build
+.PHONY : Ex4/fast
+
+#=============================================================================
+# Target rules for targets named my_lib
+
+# Build rule for target.
+my_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_lib
+.PHONY : my_lib
+
+# fast build rule for target.
+my_lib/fast:
+	$(MAKE) $(MAKESILENT) -f Exercise4/str_opera/CMakeFiles/my_lib.dir/build.make Exercise4/str_opera/CMakeFiles/my_lib.dir/build
+.PHONY : my_lib/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -138,6 +190,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Ex1"
+	@echo "... Ex2"
+	@echo "... Ex3"
+	@echo "... Ex4"
+	@echo "... my_lib"
 .PHONY : help
 
 

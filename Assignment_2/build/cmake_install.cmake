@@ -40,6 +40,9 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise1/cmake_install.cmake")
+  include("/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise2/cmake_install.cmake")
+  include("/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise3/cmake_install.cmake")
+  include("/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise4/cmake_install.cmake")
 
 endif()
 

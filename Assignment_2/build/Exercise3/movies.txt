@@ -1,0 +1,10 @@
+Django 0 30
+Tenet 0 50
+Inception 0 40
+PulpFiction 0 35
+FightClub 1 22
+HatefulEight 1 46
+Seven 2 35.8
+WolfofWallstreet 2 25.99
+BatmanBegins 1 27.89
+DoctorStrange 0 40

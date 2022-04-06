@@ -1,43 +1,100 @@
 #include "std_lib_facilities.h"
 
-// creating a function that adds all the elements in the vector recursively
-double sum(vector<double> numbers) {
-    if (numbers.size() != 0) { // as long as the vector has elements
+// Creating a function that saves the last number of a vector and removes it at the same time
+// if vector is empty it returns 0
+double pop_save(vector<double> numbers) {
 
-        double numSum = numbers.back(); // storing the last element in numSum
-        double tmp = numSum; // a temporary double just to print each action
-
-        numbers.pop_back(); // removing the last element
-        
-        // calling the function again for the vector but with the last element deleted
-        numSum += sum(numbers); // recursion
-
-        return numSum;
+    // initializing variables
+    double num = 0;
+    if (numbers.empty()) {
+        num = 0;
     }
-    else return 0;
+    else{
+        num = numbers.back(); // saving the last element
+        numbers.pop_back(); // removing the last element
 
+    }
 
+    return num;
+}
+
+double mult(vector<double> numbers) { 
     
+    vector<double> num; // for printing 
+
+    double result = numbers.back(); // last element of vector
+    numbers.pop_back(); // removing last element from vector 
+    
+    if (numbers.size() > 0) {
+        num.push_back(result);
+        result *= mult(numbers);
+        
+    }
+    else {
+        result *= 1;
+        num.push_back(result);
+
+    }
+
+
+    return result;
 }
 
-double mult(vector<double> numbers) {
-    return 0;
+double addition(vector<double> numbers) { 
+    
+    vector<double> num; // for printing 
+
+    double result = numbers.back(); // last element of vector
+    numbers.pop_back(); // removing last element from vector 
+    
+    if (numbers.size() > 0) {
+        num.push_back(result);
+        result += addition(numbers);
+        
+    }
+    else {
+        result += 0;
+        num.push_back(result);
+    }
+    
+
+    return result;
 }
 
-double subtr(vector<double> numbers) {
-    return 0;
+double sub(vector<double> numbers) {
+    vector<double> num; // for printing 
+
+    double result = numbers.back(); // last element of vector
+    numbers.pop_back(); // removing last element from vector 
+    
+    if (numbers.size() > 0) {
+        num.push_back(result);
+        result -= addition(numbers);
+        
+    }
+    else {
+        result -= 0;
+        num.push_back(result);
+    }
+    
+
+    return result;
 }
+
 int main() {
 
     try {
+
         // initializing variables 
         int N = 0;
         int mode = 0;
         double inputNumb = 0;
+        double result = 0;
         string strN = "0";
         string strNumb = "0";
         string strMode = "0";
         vector<double> numbers;
+
 
         // asking user to give a value for the number N
         cout << "Give N : ";
@@ -84,7 +141,7 @@ int main() {
             numbers.push_back(inputNumb);
         }
 
-        cout << "---------------\nAddition -> 1 \nMultiplication -> 2 \nSubtraction -> 3\n--------------- \nChoose Mode: ";
+        cout << "---------------------\nAddition -> 1 \nMultiplication -> 2 \nSubtraction -> 3\n--------------------- \nChoose Mode: ";
         cin >> strMode;
         for (char c : strMode) {
             if (!isdigit(c)) throw 103; // if user inserts anything else than a digit for mode throw error
@@ -98,24 +155,22 @@ int main() {
         // transforming mode into an integer 
         mode = stoi(strMode);
 
-        switch(mode) 
-        {
-            // depending on the mode the user chose follow the corresponding action
-
-            case 1:
-                cout << sum(numbers) << endl;
-                break;
-
-            case 2:
-
-                break;
-
-            case 3:
-
-                break;
-
-
+        // calling the function and printing the result
+        if (mode == 1) { 
+           result = addition(numbers);
+           cout << "Addition : ";
         }
+        else if(mode == 2) {
+            result = mult(numbers);
+            cout << "Multiplication : ";
+        }
+        else {
+            result = sub(numbers);
+            cout << "Substraction : ";
+        }
+
+        cout << result << endl;
+        
 
     }
     catch(int x) {

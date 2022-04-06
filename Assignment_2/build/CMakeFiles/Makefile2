@@ -64,14 +64,23 @@ CMAKE_BINARY_DIR = /Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/b
 
 # The main recursive "all" target.
 all: Exercise1/all
+all: Exercise2/all
+all: Exercise3/all
+all: Exercise4/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: Exercise1/preinstall
+preinstall: Exercise2/preinstall
+preinstall: Exercise3/preinstall
+preinstall: Exercise4/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: Exercise1/clean
+clean: Exercise2/clean
+clean: Exercise3/clean
+clean: Exercise4/clean
 .PHONY : clean
 
 #=============================================================================
@@ -88,6 +97,68 @@ Exercise1/preinstall:
 # Recursive "clean" directory target.
 Exercise1/clean: Exercise1/CMakeFiles/Ex1.dir/clean
 .PHONY : Exercise1/clean
+
+#=============================================================================
+# Directory level rules for directory Exercise2
+
+# Recursive "all" directory target.
+Exercise2/all: Exercise2/CMakeFiles/Ex2.dir/all
+.PHONY : Exercise2/all
+
+# Recursive "preinstall" directory target.
+Exercise2/preinstall:
+.PHONY : Exercise2/preinstall
+
+# Recursive "clean" directory target.
+Exercise2/clean: Exercise2/CMakeFiles/Ex2.dir/clean
+.PHONY : Exercise2/clean
+
+#=============================================================================
+# Directory level rules for directory Exercise3
+
+# Recursive "all" directory target.
+Exercise3/all: Exercise3/CMakeFiles/Ex3.dir/all
+.PHONY : Exercise3/all
+
+# Recursive "preinstall" directory target.
+Exercise3/preinstall:
+.PHONY : Exercise3/preinstall
+
+# Recursive "clean" directory target.
+Exercise3/clean: Exercise3/CMakeFiles/Ex3.dir/clean
+.PHONY : Exercise3/clean
+
+#=============================================================================
+# Directory level rules for directory Exercise4
+
+# Recursive "all" directory target.
+Exercise4/all: Exercise4/CMakeFiles/Ex4.dir/all
+Exercise4/all: Exercise4/str_opera/all
+.PHONY : Exercise4/all
+
+# Recursive "preinstall" directory target.
+Exercise4/preinstall: Exercise4/str_opera/preinstall
+.PHONY : Exercise4/preinstall
+
+# Recursive "clean" directory target.
+Exercise4/clean: Exercise4/CMakeFiles/Ex4.dir/clean
+Exercise4/clean: Exercise4/str_opera/clean
+.PHONY : Exercise4/clean
+
+#=============================================================================
+# Directory level rules for directory Exercise4/str_opera
+
+# Recursive "all" directory target.
+Exercise4/str_opera/all: Exercise4/str_opera/CMakeFiles/my_lib.dir/all
+.PHONY : Exercise4/str_opera/all
+
+# Recursive "preinstall" directory target.
+Exercise4/str_opera/preinstall:
+.PHONY : Exercise4/str_opera/preinstall
+
+# Recursive "clean" directory target.
+Exercise4/str_opera/clean: Exercise4/str_opera/CMakeFiles/my_lib.dir/clean
+.PHONY : Exercise4/str_opera/clean
 
 #=============================================================================
 # Target rules for target Exercise1/CMakeFiles/Ex1.dir
@@ -114,6 +185,110 @@ Ex1: Exercise1/CMakeFiles/Ex1.dir/rule
 Exercise1/CMakeFiles/Ex1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Exercise1/CMakeFiles/Ex1.dir/build.make Exercise1/CMakeFiles/Ex1.dir/clean
 .PHONY : Exercise1/CMakeFiles/Ex1.dir/clean
+
+#=============================================================================
+# Target rules for target Exercise2/CMakeFiles/Ex2.dir
+
+# All Build rule for target.
+Exercise2/CMakeFiles/Ex2.dir/all:
+	$(MAKE) $(MAKESILENT) -f Exercise2/CMakeFiles/Ex2.dir/build.make Exercise2/CMakeFiles/Ex2.dir/depend
+	$(MAKE) $(MAKESILENT) -f Exercise2/CMakeFiles/Ex2.dir/build.make Exercise2/CMakeFiles/Ex2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/CMakeFiles --progress-num=3,4 "Built target Ex2"
+.PHONY : Exercise2/CMakeFiles/Ex2.dir/all
+
+# Build rule for subdir invocation for target.
+Exercise2/CMakeFiles/Ex2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exercise2/CMakeFiles/Ex2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/CMakeFiles 0
+.PHONY : Exercise2/CMakeFiles/Ex2.dir/rule
+
+# Convenience name for target.
+Ex2: Exercise2/CMakeFiles/Ex2.dir/rule
+.PHONY : Ex2
+
+# clean rule for target.
+Exercise2/CMakeFiles/Ex2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Exercise2/CMakeFiles/Ex2.dir/build.make Exercise2/CMakeFiles/Ex2.dir/clean
+.PHONY : Exercise2/CMakeFiles/Ex2.dir/clean
+
+#=============================================================================
+# Target rules for target Exercise3/CMakeFiles/Ex3.dir
+
+# All Build rule for target.
+Exercise3/CMakeFiles/Ex3.dir/all:
+	$(MAKE) $(MAKESILENT) -f Exercise3/CMakeFiles/Ex3.dir/build.make Exercise3/CMakeFiles/Ex3.dir/depend
+	$(MAKE) $(MAKESILENT) -f Exercise3/CMakeFiles/Ex3.dir/build.make Exercise3/CMakeFiles/Ex3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/CMakeFiles --progress-num=5,6 "Built target Ex3"
+.PHONY : Exercise3/CMakeFiles/Ex3.dir/all
+
+# Build rule for subdir invocation for target.
+Exercise3/CMakeFiles/Ex3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exercise3/CMakeFiles/Ex3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/CMakeFiles 0
+.PHONY : Exercise3/CMakeFiles/Ex3.dir/rule
+
+# Convenience name for target.
+Ex3: Exercise3/CMakeFiles/Ex3.dir/rule
+.PHONY : Ex3
+
+# clean rule for target.
+Exercise3/CMakeFiles/Ex3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Exercise3/CMakeFiles/Ex3.dir/build.make Exercise3/CMakeFiles/Ex3.dir/clean
+.PHONY : Exercise3/CMakeFiles/Ex3.dir/clean
+
+#=============================================================================
+# Target rules for target Exercise4/CMakeFiles/Ex4.dir
+
+# All Build rule for target.
+Exercise4/CMakeFiles/Ex4.dir/all: Exercise4/str_opera/CMakeFiles/my_lib.dir/all
+	$(MAKE) $(MAKESILENT) -f Exercise4/CMakeFiles/Ex4.dir/build.make Exercise4/CMakeFiles/Ex4.dir/depend
+	$(MAKE) $(MAKESILENT) -f Exercise4/CMakeFiles/Ex4.dir/build.make Exercise4/CMakeFiles/Ex4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/CMakeFiles --progress-num=7,8 "Built target Ex4"
+.PHONY : Exercise4/CMakeFiles/Ex4.dir/all
+
+# Build rule for subdir invocation for target.
+Exercise4/CMakeFiles/Ex4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exercise4/CMakeFiles/Ex4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/CMakeFiles 0
+.PHONY : Exercise4/CMakeFiles/Ex4.dir/rule
+
+# Convenience name for target.
+Ex4: Exercise4/CMakeFiles/Ex4.dir/rule
+.PHONY : Ex4
+
+# clean rule for target.
+Exercise4/CMakeFiles/Ex4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Exercise4/CMakeFiles/Ex4.dir/build.make Exercise4/CMakeFiles/Ex4.dir/clean
+.PHONY : Exercise4/CMakeFiles/Ex4.dir/clean
+
+#=============================================================================
+# Target rules for target Exercise4/str_opera/CMakeFiles/my_lib.dir
+
+# All Build rule for target.
+Exercise4/str_opera/CMakeFiles/my_lib.dir/all:
+	$(MAKE) $(MAKESILENT) -f Exercise4/str_opera/CMakeFiles/my_lib.dir/build.make Exercise4/str_opera/CMakeFiles/my_lib.dir/depend
+	$(MAKE) $(MAKESILENT) -f Exercise4/str_opera/CMakeFiles/my_lib.dir/build.make Exercise4/str_opera/CMakeFiles/my_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/CMakeFiles --progress-num=9,10 "Built target my_lib"
+.PHONY : Exercise4/str_opera/CMakeFiles/my_lib.dir/all
+
+# Build rule for subdir invocation for target.
+Exercise4/str_opera/CMakeFiles/my_lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exercise4/str_opera/CMakeFiles/my_lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/CMakeFiles 0
+.PHONY : Exercise4/str_opera/CMakeFiles/my_lib.dir/rule
+
+# Convenience name for target.
+my_lib: Exercise4/str_opera/CMakeFiles/my_lib.dir/rule
+.PHONY : my_lib
+
+# clean rule for target.
+Exercise4/str_opera/CMakeFiles/my_lib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Exercise4/str_opera/CMakeFiles/my_lib.dir/build.make Exercise4/str_opera/CMakeFiles/my_lib.dir/clean
+.PHONY : Exercise4/str_opera/CMakeFiles/my_lib.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

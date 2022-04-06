@@ -771,7 +771,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "6"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1204,6 +1204,114 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/Exercise1"
+		},
+		{
+			"name" : "Exercise2_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise2"
+		},
+		{
+			"name" : "Exercise2_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Exercise2_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/Exercise2"
+		},
+		{
+			"name" : "Exercise3_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise3"
+		},
+		{
+			"name" : "Exercise3_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Exercise3_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/Exercise3"
+		},
+		{
+			"name" : "Exercise4_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build/Exercise4/str_opera"
+		},
+		{
+			"name" : "Exercise4_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Exercise4_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/Exercise4/str_opera"
 		},
 		{
 			"name" : "Exercises_BINARY_DIR",

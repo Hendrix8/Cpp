@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.4"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Exercise1",
+					"jsonFile" : "directory-Exercise1-Debug-31f3df33754c45b315c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Exercise1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Exercise2",
+					"jsonFile" : "directory-Exercise2-Debug-be695c21d604bf341377.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Exercise2",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Exercise3",
+					"jsonFile" : "directory-Exercise3-Debug-b199d38fc502a9e56cba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Exercise3",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Exercise4",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-Exercise4-Debug-c084084cc7587391e4ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "Exercise4",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Exercise4/str_opera",
+					"jsonFile" : "directory-Exercise4.str_opera-Debug-2f0a3c2e03599e56dc88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.4"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "Exercise4/str_opera",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Exercises"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Exercise1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Exercise2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Exercise3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "Exercise4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Ex1::@782dea19f2eda13407eb",
+					"jsonFile" : "target-Ex1-Debug-a3c83df8d3e99a542d35.json",
+					"name" : "Ex1",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Ex2::@9928166d97d3227629ff",
+					"jsonFile" : "target-Ex2-Debug-bbd073b440ed8b89572f.json",
+					"name" : "Ex2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Ex3::@c7926e599df7257c0f4f",
+					"jsonFile" : "target-Ex3-Debug-bfab96b401fdbe1a102b.json",
+					"name" : "Ex3",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Ex4::@88cc3bd0abe8499a41c3",
+					"jsonFile" : "target-Ex4-Debug-89a72264432eaa404fea.json",
+					"name" : "Ex4",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "my_lib::@e2169a26953593f15909",
+					"jsonFile" : "target-my_lib-Debug-16a0bb313cd26c275776.json",
+					"name" : "my_lib",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2/build",
+		"source" : "/Users/Chris/Desktop/Study2022/Earino_2022/C++/Assignment_2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
