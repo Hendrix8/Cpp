@@ -1,0 +1,1 @@
+/usr/bin/clang++  -Wno-deprecated -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa CMakeFiles/ask.dir/ask.cxx.o -o ../bin/examples/ask.app/Contents/MacOS/ask  ../lib/libfltk.a /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/lib/libdl.tbd 

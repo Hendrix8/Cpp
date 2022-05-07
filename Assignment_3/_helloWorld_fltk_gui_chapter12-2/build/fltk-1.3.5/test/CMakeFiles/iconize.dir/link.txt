@@ -1,0 +1,1 @@
+/usr/bin/clang++  -Wno-deprecated -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa CMakeFiles/iconize.dir/iconize.cxx.o -o ../bin/examples/iconize.app/Contents/MacOS/iconize  ../lib/libfltk.a /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/lib/libdl.tbd 

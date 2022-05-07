@@ -1,0 +1,1 @@
+/usr/bin/clang++  -Wno-deprecated -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa CMakeFiles/menubar.dir/menubar.cxx.o -o ../bin/examples/menubar.app/Contents/MacOS/menubar  ../lib/libfltk.a /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/lib/libdl.tbd 

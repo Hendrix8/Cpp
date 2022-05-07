@@ -1,0 +1,1 @@
+/usr/bin/clang++  -Wno-deprecated -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa CMakeFiles/tiled_image.dir/tiled_image.cxx.o -o ../bin/examples/tiled_image.app/Contents/MacOS/tiled_image  ../lib/libfltk.a /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/lib/libdl.tbd 

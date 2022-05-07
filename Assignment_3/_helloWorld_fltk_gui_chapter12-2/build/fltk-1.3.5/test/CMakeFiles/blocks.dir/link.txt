@@ -1,0 +1,1 @@
+/usr/bin/clang++  -Wno-deprecated -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa CMakeFiles/blocks.dir/blocks.cxx.o -o ../bin/examples/blocks.app/Contents/MacOS/blocks  ../lib/libfltk.a -framework CoreAudio /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/lib/libdl.tbd 

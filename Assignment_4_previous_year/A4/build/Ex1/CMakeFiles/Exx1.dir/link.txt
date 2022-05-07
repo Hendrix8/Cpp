@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Exx1.dir/Exx1.cpp.o -o Exx1 
