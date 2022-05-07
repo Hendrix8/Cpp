@@ -48,13 +48,15 @@ int main() {
         int coor_y_int = 0;
         int label_x_int = 0;
         int label_y_int = 0;
-
+        int real_label_x = 0;
+        int real_label_y = 0;
 
         while(run) {
-            
+
             Point tl(200,200);           // to become top left  corner of window
             Simple_window win(tl,800,600,"Image Viewer");    // make a simple window and naming it Image Viewer
 
+        
             // asking user for a picture
             cout << "Give the name of the file (.jpg or .gif) : ";
             cin >> file_name;
@@ -65,14 +67,6 @@ int main() {
                 break;
             }
             
-            // checking if user gave the correct format for the file 
-            for (int i = file_name.size() - 4; i < file_name.size(); i++ ) {
-                last_4 += file_name.at(i);
-            }
-            if (last_4 != ".jpg" && last_4 != ".gif") {
-                throw 101;
-            }
-
             // asking the user for coordinates 
             cout << "Give the x-coordinate that you want the image to be placed at : ";
             cin >> coor_x;
@@ -122,22 +116,28 @@ int main() {
             // placing the given image on the coordinates that are given
             Image image(Point(coor_x_int, coor_y_int), file_name);
 
-            // attaching the image to the window 
-            win.attach(image);
+            // making it relative to the picture 
+            real_label_x = label_x_int + coor_x_int;
+            real_label_y = label_y_int + coor_y_int;
 
-            win.wait_for_button();       // give control to the display engine
-    
+            Text image_label(Point(real_label_x, real_label_y), label); // add text to image
+            image_label.set_color(Color::white); // making the color of the text to be white 
+
+            // attaching the image and label to the window 
+            win.attach(image);
+            win.attach(image_label);
+
+            win.wait_for_button(); 
+            
+            // NOTE : you have to press next in order to insert the next picture.
+ 
         }
 
-
-       
     }
     catch (int e) {
 
         switch (e) {
-            case 101: 
-                cerr << "Error 101, file not in the correct format. \n";
-                break;
+            
             case 102:
                 cerr << "Error 102, coordinate must be a number. \n";
                 break;
