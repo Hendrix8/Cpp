@@ -10,36 +10,84 @@
 #define NOGDI
 #endif
 
-#include "Simple_window.h"    // get access to our window library
-#include "Graph.h"            // get access to our graphics library facilities
+#include<iostream>
+#include<iomanip>
+#include<fstream>
+#include<sstream>
+#include<cmath>
+#include<cstdlib>
+#include<string>
+#include<list>
+#include<forward_list>
+#include<vector>
+#include<unordered_map>
+#include<algorithm>
+#include<array>
+#include<regex>
+#include<random>
+#include<stdexcept>           
+#include"Simple_window.h"    
+#include"Graph.h"
 
 //------------------------------------------------------------------------------
 
 int main()
 {
     using namespace Graph_lib;   // our graphics facilities are in Graph_lib
-
-    Point tl(100,100);           // to become top left  corner of window
-
-    Simple_window win(tl,600,400,"Canvas");    // make a simple window
-
-    Polygon poly;                // make a shape (a polygon)
-
-    poly.add(Point(300,200));    // add a point
-    poly.add(Point(350,100));    // add another point
-    poly.add(Point(400,200));    // add a third point 
-
-    poly.set_color(Color::red);  // adjust properties of poly
-
-    Text t(Point(150,50), "Hello World of HY150! ");
-    t.set_font(Graph_lib::Font::times_bold);
-    t.set_font_size(20);
-
-    win.attach(t);
     
-    win.attach (poly);           // connect poly to the window
+    try {
+        // initializing variables
+        int ax_size = 300;
+        string line = "";
 
-    win.wait_for_button();       // give control to the display engine
+        //Point tl(200,200);           // to become top left  corner of window
+        //Simple_window win(tl,800,600,"Cartesian Plane");    // make a simple window
+
+        // creating lines of the axes and the text
+        //Text xText(Point(520,510), to_string(ax_size));
+        //Line x(Point(100,500), Point(500,500));
+
+        //Text yText(Point(80,80), to_string(ax_size));
+        //Line y(Point(100,100), Point(100,500));
+
+        ifstream ifs("Points.txt"); // reading the file 
+        
+        if (ifs.is_open()) {
+            
+            getline(ifs, line);
+
+        }
+        else{
+            throw 101;
+        }
+        
+
+
+        // attaching the widgets and setting the fonts 
+        //win.attach(x);
+        //win.attach(y);
+
+        //yText.set_font(Font::times_bold);
+        //yText.set_font_size(30);
+
+        //xText.set_font(Font::times_bold);
+        //xText.set_font_size(30);
+        
+        //win.attach(xText);
+        //win.attach(yText);
+        //win.wait_for_button();       // give control to the display engine
+
+    }
+
+    catch(int x) {
+        switch(x) {
+
+            case 101:
+                cerr << "Something went wrong with the file. \n"
+                break;
+        }
+    }
+    
 }
 
 //------------------------------------------------------------------------------

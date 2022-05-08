@@ -1,24 +1,16 @@
 Ex2/CMakeFiles/ex2.dir/ex2.cpp.o: \
   /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/Ex2/ex2.cpp \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/GUI/Simple_window.h \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/GUI/GUI.h \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/GUI/Window.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
@@ -30,9 +22,9 @@ Ex2/CMakeFiles/ex2.dir/ex2.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mbstate_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
@@ -45,8 +37,44 @@ Ex2/CMakeFiles/ex2.dir/ex2.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_errno_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rune_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_wchar_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdarg.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_va_list.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_ctermid.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_off_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/__wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_wint_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctype_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/runetype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
@@ -61,34 +89,6 @@ Ex2/CMakeFiles/ex2.dir/ex2.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uintmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rune_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdarg.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_va_list.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_ctermid.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_off_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/__wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_wint_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctype_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/runetype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
@@ -171,47 +171,6 @@ Ex2/CMakeFiles/ex2.dir/ex2.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctrans_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Export.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/fl_utf8.h \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/fl_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/stat.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blkcnt_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blksize_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_nlink_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_gid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_s_ifmt.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_filesec_t.h \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Enumerations.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/build/fltk-1.3.5/FL/abi-version.h \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Window.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Group.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Widget.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Bitmap.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Image.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/GUI/Point.h \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/GUI/Graph.h \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/fl_draw.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/x.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/mac.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Device.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Plugin.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Preferences.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Pixmap.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_RGB_Image.H \
-  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/GUI/std_lib_facilities.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/fstream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__mutex_base \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/system_error \
@@ -231,6 +190,8 @@ Ex2/CMakeFiles/ex2.dir/ex2.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/types.h \
@@ -238,9 +199,15 @@ Ex2/CMakeFiles/ex2.dir/ex2.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_short.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_caddr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blksize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_gid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_in_addr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_in_port_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_key_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_nlink_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_useconds_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_suseconds_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_def.h \
@@ -255,9 +222,53 @@ Ex2/CMakeFiles/ex2.dir/ex2.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/forward_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/unordered_map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__hash_table \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/regex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/random \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/GUI/Simple_window.h \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/GUI/GUI.h \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/GUI/Window.h \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Export.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/fl_utf8.h \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/fl_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/stat.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_s_ifmt.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_filesec_t.h \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Enumerations.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/build/fltk-1.3.5/FL/abi-version.h \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Window.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Group.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Widget.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Bitmap.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Image.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/GUI/Point.h \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/GUI/Graph.h \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/fl_draw.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/x.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/mac.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Device.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Plugin.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Preferences.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_Pixmap.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/fltk-1.3.5/FL/Fl_RGB_Image.H \
+  /Users/Chris/Desktop/Desktop/Study2022/Earino_2022/C++/Assignment_3/_helloWorld_fltk_gui_chapter12-2/GUI/std_lib_facilities.h
