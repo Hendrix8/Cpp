@@ -198,8 +198,6 @@ int main()
             temp_x = temp_x + translation_x; 
             temp_y = translation_y - temp_y;
 
-            cout << temp_x << " " << temp_y << endl;
-
             points_transl.push_back( make_pair(temp_x, temp_y));
 
         }
@@ -252,37 +250,3 @@ int main()
 }
 
 //------------------------------------------------------------------------------
-
-
-
-
-/*
-// if a point has x or y > 300 then we have to scale the axes (normalize the point)
-                if (x_transl > 300) {
-                    
-                    // translating the axes sizes 
-                    point_first_number = to_string(x_transl).at(0);
-                    for (int i = 0; i < to_string(x_transl).size() - 1; i++) {
-                        multiplyer *= multiplyer;
-                    }
-
-                    // if it is 4521 then take 4 multiply it by 1000 (multiplyer) and then by 2 
-                    ax_size = 2 * (stoi(point_first_number) * multiplyer ); // doubling the axes to be sure
-                    
-                    // translating x
-                    
-                    
-                }
-                if (y_transl > 300 ) {
-                     
-                    // translating the axes sizes 
-                    point_first_number = to_string(y_transl).at(0);
-                    for (int i = 0; i < to_string(y_transl).size(); i++) {
-                        multiplyer *= multiplyer;
-                    }
-
-                    // if it is 4521 then take 4 multiply it by 1000 (multiplyer) and then by 2 
-                    ax_size = 2 * (stoi(point_first_number) * multiplyer ); // doubling the axes to be sure
-                    
-                    // translating y
-                }*/
