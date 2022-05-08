@@ -79,7 +79,7 @@ vector<int> extractNums(string str) {
 }
 
 // this will help us extract max from all x and y's so that we are able to rescale the axes
-pair<int, int> extractMaxes(vector< pair<int,int> > points, int translation_x, int translation_y ) {
+pair<int, int> extractMaxes(vector< pair<int,int> > points) {
     // initializing variables 
     vector<int> all_x;
     vector<int> all_y;
@@ -89,13 +89,10 @@ pair<int, int> extractMaxes(vector< pair<int,int> > points, int translation_x, i
     int temp_y = 0;
 
     for (pair<int, int> point : points) {
-        // retranslating them to normal
-        temp_x = point.first - translation_x;
-        temp_y = translation_y - point.second;
 
         // adding all x and ys to their corresponding vectors
-        all_x.push_back(temp_x);
-        all_y.push_back(temp_y);
+        all_x.push_back(point.first);
+        all_y.push_back(point.second);
 
     }
 
@@ -137,6 +134,7 @@ int main()
         string point_first_number = "";
         Open_polyline polyline; // creating a polyline object to draw the points of the txt file 
         vector< pair< int, int> > points; // a vector that has pairs of integers
+        vector< pair< int, int> > points_transl;
         vector<int> temp_vec; // a vector to store and then make a pair 
         int x_transl = 0; 
         int y_transl = 0;
@@ -165,11 +163,8 @@ int main()
 
                 // adding the point of the current line to the points vector after translating it to
                 // our coordinate system and making it a pair 
-                x_transl = temp_vec.at(0) + translation_x;
-                y_transl = translation_y - temp_vec.at(1);
 
-            
-                points.push_back( make_pair(x_transl, y_transl) );
+                points.push_back( make_pair(temp_vec.at(0), temp_vec.at(1)) );
 
                 // clearing the vector for the next line 
                 temp_vec.clear();
@@ -182,8 +177,8 @@ int main()
         ifs.close();
 
         // extracting the maximum values to rescale the axes if it is needed
-        max_x = extractMaxes(points, translation_x, translation_y).first;
-        max_y = extractMaxes(points, translation_x, translation_y).second;
+        max_x = extractMaxes(points).first;
+        max_y = extractMaxes(points).second;
 
         if (max_x >= max_y) {
             check_rescale(ax_size, max_x);
@@ -194,17 +189,19 @@ int main()
 
         // normalizing the points 
         for (pair<int, int> point : points) {
+            // translating x and y to our coordinate system 
             
-            cout << point.first << " " << point.second << endl;
+            temp_x = point.first / (ax_size / 300); // the ax_size/300 is how much has the axis changed 
+            temp_y = point.second / (ax_size / 300); // therefore to normalize in respect to the new
+            // axes, we have to divide by that difference 
 
-            // retranslating points to normal 
-            /*if (point.first > 300) {
+            temp_x = temp_x + translation_x; 
+            temp_y = translation_y - temp_y;
 
-            }
+            cout << temp_x << " " << temp_y << endl;
 
-            if (point.second > 300) {
+            points_transl.push_back( make_pair(temp_x, temp_y));
 
-            }*/
         }
 
         // creating the window 
@@ -212,7 +209,7 @@ int main()
         Simple_window win(tl,800,600,"Cartesian Plane");    
 
         // going through the points vector 
-        for (pair<int, int> point : points) {
+        for (pair<int, int> point : points_transl) {
 
             // adding the point to the polyline
             polyline.add(Point(point.first, point.second));
